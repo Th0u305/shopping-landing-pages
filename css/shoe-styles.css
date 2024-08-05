@@ -1,0 +1,55 @@
+
+
+
+
+.hero-content-image{
+    background: none;
+}
+
+
+.nike{
+    color: rgb(250, 128, 76);
+}
+.run{
+    color: rgb(54, 57, 88);
+}
+
+.btn-color{
+    background:rgb(103, 116, 228);
+}
+
+
+
+.hero-content-image{
+    width: 70%;
+    justify-content: left;
+
+    img{
+        width: 80%;
+    }
+}
+
+
+
+
+
+.img-bg{
+    height: auto;
+}
+
+
+.img , .img-1 , .man-img , .man-img-1{
+    width: 80%;
+}
+
+
+.product-img-cont-btn{
+    p{
+        color: rgb(250, 128, 76);
+    }
+}
+
+.img-bg-2{
+    background: none;
+}
+

@@ -1,0 +1,184 @@
+
+
+body{
+    background: rgb(252,246,229);
+    background: linear-gradient(90deg, #F1EEDC 50% , #BED7DC 50%);
+
+}
+
+
+
+.hero-content-image{
+    background-image: url(../Option-3-Backpack-Moon/Logo-Icon/green.png);
+    background-repeat: no-repeat;
+}
+
+
+.moon{
+    color: rgb(118, 194, 126);
+}
+
+
+.btn-color{
+    background: #605aa0;
+}
+
+.product-img-cont-btn{
+    p{
+        color: rgb(118, 194, 126);
+    }
+}
+
+
+
+.img , .img-1 , .man-img , .man-img-1{
+    width: 80%;
+}
+
+
+
+
+
+ .hero-content-image{
+    background-image: url(../Option-3-Backpack-Moon/Logo-Icon/green.png);
+    background-repeat: no-repeat;
+    background-size:53%;
+    background-position: bottom;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    img{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .hero-content-image{
+        margin-top: 10%;
+        background-size: 100%;
+        justify-content:left;
+        align-items: start;
+        
+        img{
+            padding-top: 30px;
+            position: relative;
+            width: 90%;
+        }
+    }
+
+}
+
+.product-title{
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+ 
+
+    .hero{
+        justify-content: center;
+        align-items: end;
+    }
+    
+    .hero-content-image{
+        width: 100%;
+        background-size: 96%;
+        justify-content:center;
+        align-items: center;
+        
+        img{
+            padding-top: 17px;
+            width: 90%;
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1340px){
+
+
+    .hero{
+        align-items: end;
+    }
+
+    .hero-content-image{
+        background-size: 70%;
+        
+        img{
+            width: 70%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1341px) and (max-width: 1440px) {
+
+
+    .hero{
+        justify-content: center;
+        align-items: end;
+    }
+    .hero-content-image{
+        img{
+            padding-top: 15px;
+        }
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    
+
+    .hero-content{
+        width: 70%;
+    }
+
+    .hero-content-image{
+        img{
+            padding-top: 15px;
+        }
+    }
+
+}
+
+
+
+@media screen and (min-width: 2560px) {
+
+
+    .hero-content-image{
+        img{
+            padding-top: 20px;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
