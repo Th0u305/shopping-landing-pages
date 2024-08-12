@@ -192,8 +192,7 @@ body{
 }
     
 .product-title{
-    width: 80%;
-
+    text-align: center;
     h1{
         font-size: 50px;
     }
@@ -416,13 +415,6 @@ body{
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< product >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-
-    .product-title{
-        h1{
-            text-align: center;
-        }
-    }
-
     .product-img{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -575,13 +567,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .product-title{
-       
-        h1{
-            text-align: center;
-        }
-    }
-    
+ 
     .product-img{
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
@@ -689,8 +675,6 @@ body{
 
 
 
-
-
     
     .header-container{
         width: 90%;
@@ -731,13 +715,6 @@ body{
         align-items: center;
     }
 
-    .product-title{
-
-        h1{
-            text-align: center;
-        }
-    }
-        
     .product-img{
         width: 90%;
         gap: 30px;
@@ -747,12 +724,6 @@ body{
         width: 100%;
     }
     
-
-
-
-
-
-
 
     /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Info >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -770,17 +741,12 @@ body{
         width: 45%;
     }
 
-
-
 }
 
 
 
 
 @media screen and (min-width: 1341px) and (max-width: 1440px) {
-
-
-
     .hero-content{
         width: 68%;
     }
